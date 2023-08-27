@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(220, 15%, 55%);
+}
+
+.container {
+    width: 350px;
+    margin: 5rem auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.8rem;
+    border-radius: 15px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container__title {
+    margin: 1.2rem;
+    font-size: 1.5rem;
+}
+
+.container__description {
+    font-size: 15px;
+    color: #808080;
+    max-width: 25ch;
+}
